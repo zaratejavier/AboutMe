@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  /* background-color: rgb(160, 140, 116); */
+  background-image: url(../images/ogden_opt.jpg);
+  /* background-image: url(../images/mountain_opt.jpg); */
+
+}
+
+.nature{
+  height: 170px;
+  width: 170px;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bbb5b5;
+  height: 150px;
+}
+
+#top nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#top nav ul li{
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+#top nav ul li a{
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#top nav ul li a:hover{
+  color: black;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.intro-sec, h1, p{
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myPic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.socialLinks{
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  padding: 0 30px 0 30px;
+  
+}
+
+#social-icons{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+p{
+  color: rgb(30, 96, 128);
+  margin-top: -120px;
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+
+hr{
+  width: 50%;
+  top: 20px; 
+  border: none; 
+  height: 2px; 
+  background: black; 
+  margin-bottom: 50px; 
+}
+
+h3{
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: #bbb5b5;
+  color: white;
+  text-decoration: none;
+}
+
+footer * {
+   padding: 20px;
+   text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+a:visited { 
+  color: rgba(53, 51, 51, 0.356);; 
+}
+ 
+a:hover{
+  color: white;
+}
