@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     email = mail.value
     moreInfor = subject.value
 
-
     alert("Information you provided! \nFirst Name: " + name + " \n" +
     "Last Name: " + laname + "\n" + "Email: " + email + "\n" +
     "Subject: " + moreInfor)
